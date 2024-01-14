@@ -8,51 +8,66 @@
     <title>Michael's Portfolio</title>
 </head>
 <body>
-    
-    <!--Background for landing page-->
+
+    <!-- Background for landing page -->
+    <div id="top-page"></div>
     <div class="background"></div>
 
-    <!--Top Nav Bar Section-->
-    <div class="nav-bar-section">
-        
-        <!--Name on left-->
+    <!-- Top Nav Bar Section -->
+    <div class="nav-bar-section animated animatedFadeInUp fadeInUp">
+        <!-- Name on left -->
         <div class="name">
-            <p id="michael"><a href="/index.html">Michael</a></p>
+            <p id="michael"><a href="#top-page">Michael</a></p>
         </div>
 
-        <!--Center Bar-->
+        <!-- Center Bar -->
         <div class="center-bar">
             <ul>
-                <li> <a href="/about.html">About</a></li>
-                <li> <a href="/projects.html">Projects</a></li>
-                <li> <a href="/experience.html">Experience</a></li>
+                <li><a href="#box-education">About</a></li>
+                <li><a href="#top-page">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
             </ul>
         </div>
 
-        <!--Contact Right-->
+        <!-- Contact Right -->
         <div class="contact">
             <p id="contact"><a href="/contact.html">Contact</a></p>
         </div>
-
     </div>
 
-    <!--Greeting Splash-->
+    <!-- Greeting Splash -->
     <div class="greeting-splash">
-        <p id="title">Python, Java and C Developer</p>
+        <p id="title">Python, Java, and C Developer</p>
         <p id="learn-more">Learn more below!</p>
     </div>
 
-    <!--Arrow For Next Page-->
-    <a data-scroll href="#basic-intro">
-        <div class="arrow"></div>
-    </a>
-
-    <!--Basic Intro-->
+    <!-- Basic Intro -->
     <div id="basic-intro">
-        <h1>test intro 2</h1>
+        <p id="title">Hey, I'm Michael!</p>
+        <br><br>
+
+        <!-- Education box -->
+        <div id="box-education">
+            <div class="text">
+                <h1>All About Me:</h1>
+                <div class="linebreak"></div>
+                <h3>Education:</h3>
+                <p>I'm Michael, and I'm a first-year university student studying at the University Of Guelph. I am currently pursuing a Bachelor Of Computing with a Major in Computer Science and a Minor in Applied Geomatics, with an expected graduation year of 2027.</p>
+                <h3>Why I Got Into Coding:</h3>
+                <p>I started coding in 2017 by creating Java mods for Minecraft, automating tasks, and customizing the game. In high school, I picked up Python while also learning Java in class, creating scripts to automate tasks and making tutorials on YouTube. Currently, I am learning C at university and have developed programs like autograders to assist students in validating their work.</p>
+                <h3>Future Ambitions:</h3>
+                <p>I look forward to learning new things, such as front-end web development and integrating AI into new projects.</p>
+            </div>
+
+            <div class="picture">
+                <img src="./assets/imgBox1.jpeg" alt="Michael's Picture">
+            </div>
+        </div>
     </div>
 
+    <!-- Projects Section -->
+    <div id="projects"></div>
 
-
+    <script src="script.js"></script>
 </body>
 </html>
