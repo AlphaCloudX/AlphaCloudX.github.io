@@ -38,7 +38,8 @@ a {
 
 .nav-bar-section .name,
 .nav-bar-section .contact {
-    margin: 0 20px; /* Adjusted the margin for both name and contact */
+    margin: 0 20px;
+    /* Adjusted the margin for both name and contact */
 }
 
 .nav-bar-section .name {
@@ -90,22 +91,22 @@ a {
 
 @keyframes fadeInUp {
     from {
-        transform: translate3d(0,40px,0)
+        transform: translate3d(0, 40px, 0)
     }
 
     to {
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
         opacity: 1
     }
 }
 
 @-webkit-keyframes fadeInUp {
     from {
-        transform: translate3d(0,40px,0)
+        transform: translate3d(0, 40px, 0)
     }
 
     to {
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
         opacity: 1
     }
 }
@@ -151,6 +152,7 @@ a {
 .greeting-splash #learn-more {
     margin: 0;
     font-size: 22px;
+    margin-top: 10px;
 }
 
 #basic-intro {
@@ -173,7 +175,7 @@ a {
     padding: 20px 0;
 }
 
-#box-education {
+.box {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: white;
     border-radius: 10px;
@@ -200,6 +202,18 @@ a {
     flex-shrink: 0;
     margin-left: 20px;
     margin-right: 10px;
+}
+
+#box-projects .text {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#box-experience .text {
+    flex: 1;
+    text-align: left;
+    margin-left: 10px;
 }
 
 .linebreak {

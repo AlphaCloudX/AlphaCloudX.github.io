@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <title>Michael's Portfolio</title>
 </head>
+
 <body>
 
     <!-- Background for landing page -->
@@ -15,7 +17,7 @@
 
     <!-- Top Nav Bar Section -->
     <div class="nav-bar-section animated animatedFadeInUp fadeInUp">
-        <!-- Name on left -->
+        <!-- Name on the left -->
         <div class="name">
             <p id="michael"><a href="#top-page">Michael</a></p>
         </div>
@@ -24,50 +26,144 @@
         <div class="center-bar">
             <ul>
                 <li><a href="#box-education">About</a></li>
-                <li><a href="#top-page">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#box-projects">Projects</a></li>
+                <li><a href="#box-experience">Experience</a></li>
             </ul>
         </div>
 
-        <!-- Contact Right -->
+        <!-- Contact on the right -->
         <div class="contact">
-            <p id="contact"><a href="/contact.html">Contact</a></p>
+            <p id="contact"><a href="/contact.html">Resume</a></p>
         </div>
     </div>
 
     <!-- Greeting Splash -->
     <div class="greeting-splash">
         <p id="title">Python, Java, and C Developer</p>
+        <p id="learn-more">Tensorflow, NumPy, Direct-ml, Skimage, Keras, Git, HTML, CSS, JavaScript, Matplotlib, Java
+            Graphics 2D, Bash</p>
         <p id="learn-more">Learn more below!</p>
     </div>
 
     <!-- Basic Intro -->
     <div id="basic-intro">
-        <p id="title">Hey, I'm Michael!</p>
+        <!--<p id="title">Hey, I'm Michael!</p>-->
         <br><br>
 
         <!-- Education box -->
-        <div id="box-education">
+        <div class="box" id="box-education">
             <div class="text">
                 <h1>All About Me:</h1>
                 <div class="linebreak"></div>
                 <h3>Education:</h3>
-                <p>I'm Michael, and I'm a first-year university student studying at the University Of Guelph. I am currently pursuing a Bachelor Of Computing with a Major in Computer Science and a Minor in Applied Geomatics, with an expected graduation year of 2027.</p>
+                <p>I'm Michael, a first-year university student studying at the University of Guelph. I am
+                    pursuing a Bachelor of Computing with a Major in Computer Science and a Minor in Applied
+                    Geomatics, expecting to graduate in 2027.</p>
                 <h3>Why I Got Into Coding:</h3>
-                <p>I started coding in 2017 by creating Java mods for Minecraft, automating tasks, and customizing the game. In high school, I picked up Python while also learning Java in class, creating scripts to automate tasks and making tutorials on YouTube. Currently, I am learning C at university and have developed programs like autograders to assist students in validating their work.</p>
+                <p>I started coding in 2017 by creating Java mods for Minecraft, automating tasks, and customizing the
+                    game. In high school, I picked up Python while also learning Java in class, creating scripts to
+                    automate tasks and making tutorials on YouTube. Currently, I am learning C at university and have
+                    developed programs like autograders to assist students in validating their work.</p>
                 <h3>Future Ambitions:</h3>
-                <p>I look forward to learning new things, such as front-end web development and integrating AI into new projects.</p>
+                <p>I look forward to learning new things, such as front-end web development and integrating AI into new
+                    projects.</p>
             </div>
 
             <div class="picture">
                 <img src="./assets/imgBox1.jpeg" alt="Michael's Picture">
             </div>
         </div>
+
+        <br><br>
+
+        <!-- Projects Section -->
+        <div class="box" id="box-projects">
+
+            <div class="text">
+                <h1>Some Of My Projects:</h1>
+                <div class="linebreak"></div>
+                <br>
+                <h4>Image Super Resolution</h4>
+                <p>This program takes a low resolution image and uses a Convolutional Neural Network model to increase
+                    the resolution while reducing visual distortion</p>
+                <p>Language Used: Python</p>
+                <p>Frameworks/Libraries Used: Tensorflow, Keras, Skimage, NumPy</p>
+                <p><a href="https://github.com/AlphaCloudX/upscaler" style="text-decoration: underline;">Project
+                        Link</a></p>
+
+
+                <div class="linebreak"></div>
+                <br>
+                <h4>Behavioural Cloning Agent</h4>
+                <p>This program used a MobileNetV2 Convolutional Neural Network architecture released from Google which
+                    was trained to play Cuphead using video recordings of players beating the level to mimick their
+                    moves.</p>
+                <p>Language Used: Python</p>
+                <p>Frameworks/Libraries Used: Direct-ml, Tensorflow, Matplotlib</p>
+                <p><a href="https://www.youtube.com/watch?v=1gsq5ShqMmY" style="text-decoration: underline;">Project
+                        Video</a></p>
+
+
+                <div class="linebreak"></div>
+                <br>
+                <h4>Pixel Perfect Java Game</h4>
+                <p>This was a 2d side scroller game created from the ground up as a final project with a team of 3
+                    people where I was the team leader.</p>
+                <p>Language Used: Java</p>
+                <p>Frameworks/Libraries Used: Java Graphics 2D, JFrame</p>
+                <p><a href="https://github.com/AlphaCloudX/Pixel-Perfect-Update"
+                        style="text-decoration: underline;">Project Link</a></p>
+
+
+                <div class="linebreak"></div>
+                <br>
+                <h4>AutoGrader Scripts For Assignments</h4>
+                <p>This is a series of C scripts which were used to extensivley evaluate a users functions for an
+                    assignment. The autograders covered all edge cases that were used by Ta's on their evaluation.</p>
+                <p>Language Used: C</p>
+                <p>Frameworks/Libraries Used: WGET, Bash, GCC</p>
+                <p><a href="https://github.com/AlphaCloudX/GeneeCodeChecker" style="text-decoration: underline;">Project
+                        Link 1</a></p>
+                <p><a href="https://github.com/AlphaCloudX/Assignment-CSCheduler-Evaluator"
+                        style="text-decoration: underline;">Project Link 2</a></p>
+
+                <div class="linebreak"></div>
+                <br>
+                <h4>Personal Portfolio Website</h4>
+                <p>This is a personal portfolio website built using HTML and CSS to practise web developement while also
+                    showcasing
+                    my projects that I've created throughout the years.</p>
+                <p>Language Used: HTML, CSS, JavaScript, GIT</p>
+                <p><a href="https://alphacloudx.github.io/" style="text-decoration: underline;">This Website :D</a></p>
+
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- Education box -->
+        <div class="box" id="box-experience">
+            <div class="text">
+                <h1>My Experience:</h1>
+                <div class="linebreak"></div>
+                <h3>Shoppers Drug Mart</h3>
+                <h4>Cashier -PT</h4>
+
+                <p>March 2023 - Present</p>
+                <p>Provides exceptional customer service by assisting shoppers with their purchases, addressing
+                    inquiries, handling returns and ensuring a positive shopping experience.</p>
+                <p>Manages and accurately records lottery sales transactions, maintaining compliance with regulations
+                    and store policies to ensure the integrity of the lottery process.</p>
+                <p>Demonstrates skills in fostering a positive team environment through open communication, providing
+                    support to team members, and adapting to dynamic work situations.</p>
+            </div>
+        </div>
+        <br><br><br>
     </div>
 
-    <!-- Projects Section -->
-    <div id="projects"></div>
+
 
     <script src="script.js"></script>
 </body>
+
 </html>
